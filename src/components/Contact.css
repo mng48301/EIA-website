@@ -1,0 +1,28 @@
+.contact {
+  margin-top: 2rem;
+  background-color: rgb(108, 176, 221); /* Light blue */
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact button {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.contact button {
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}

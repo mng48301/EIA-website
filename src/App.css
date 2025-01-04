@@ -1,0 +1,17 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f8ff; /* Very light blue */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
