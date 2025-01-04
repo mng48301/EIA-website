@@ -1,0 +1,35 @@
+.header {
+  background-color: #003366; /* Dark blue */
+  color: #ffffff; /* White */
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  font-family:'Gotham', sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  transition: tranform 0.32s ease-in-out;
+}
+.logo-img:hover{
+  transform: scale(1.2);
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 300;
+  color: #ffffff; /* White */
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+

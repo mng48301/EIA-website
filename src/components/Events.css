@@ -1,0 +1,52 @@
+.events {
+  margin-top: 2rem;
+  
+}
+.title-events {
+  margin-top: 2rem;
+  text-align: center;
+  color: black;
+  font-family:'Gotham', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0.5px 2px 3px #636262;
+}
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-tile {
+  background-color: rgba(0, 51, 102, 0.1); /* Light blue */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.event-tile:hover {
+  transform: scale(1.05);
+}
+
+.event-tile h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.event-tile p {
+  margin: 0.5rem 0;
+}
+
+.event-tile button {
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
